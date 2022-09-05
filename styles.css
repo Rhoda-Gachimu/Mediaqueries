@@ -336,521 +336,68 @@ footer{
 }
 
    /* MEDIA QUERIES */
-
-      /* MEDIA QUERY MAX-WIDTH 1585PX */
-
-   @media screen and (max-width:1585px){
-     /* * { background-color:lightgreen;}  */
-        nav{
-           /* background-color: red; */
-           width: 250vw;
-           height:10vh;
-        }
-        li{
-            /* background-color: rgb(206, 157, 22);  */
-           margin: 0 300px;
-        }
-        .Homepage{
-            /* background-color: purple;  */
-           width: 250vw;
-        }
-        .image{
-           margin:0 15%;
-        }
-        .content{
-           margin: 0 15%;
-        }
-        #aboutus{
-            /* background-color: orange;  */
-           width: 250vw;
-           align-items: center;
-   
-        }
-        .About{
-           /* background-color: indigo;  */
-         /* border:5px black solid; */
-         width: 200vw;
-        }
-        #emoji{
-         margin-left: 20%;
-        }
-        .humour{
-         letter-spacing: 2px;
-         margin: 2% 1%;
-         padding: 5% 4%;
-        }
-        .click{
-            /* background-color: #628395;  */
-           width: 200vw;  
-        }
-        #viewjokes{
-           margin: 3% 45%;
-        }
-        #in{
-           margin:0% 38%;
-           width: fit-content;
-           block-size: fit-content;
-        }
-        #rj{
-           
-           width: 250vw;
-           font-size: 2rem;
-        }
-        .Random{
-            /* background-color: rgb(231, 18, 221);  */
-           /* border: 1px black solid; */
-           width: 250vw;
-        }
-        .container1{
-           margin: 5%;
-           /* border: 1px black solid; */
-        }
-        .container{
-            /* background-color: rgb(51, 255, 0);  */
-           /* border: 1px black solid; */
-           width: 250vw;
-           
-           
-        }
-        .btn{
-           /* background-color: yellow; */
-          width: 100vw;
-        }
-        .explorebtn{
-           font-size: 2rem;
-        }
-        .reviews{
-           /* background-color: #f37070; */
-           width: 250vw;
-           align-items: center;
-          
-        }
-        #feedback{
-           /* background-color: yellow; */
-           width: 250vw;
-           font-size: 3rem;
-           word-spacing: 1px;
-         
-           }
-           .reviewMain{
-                /* background-color: #9770f3;  */
-               width: 150vw;
-                margin:2% 20%;     
-           }
-           footer{
-            /* background-color: #DB0E0E; */
-            width: 250vw;
-            position : relative; 
-            height: 50vh; 
-           }
-        
-        
-       }
-   
-   
-
-
-
-/* MEDIA QUERY MAX-WIDTH 1280PX */
-   @media screen and (max-width:1280px){
-     /* *{background-color: #DB0E0E;}  */
-     nav{
-        /* background-color: black; */
-        width: 250vw;
-        height:10vh;
-     }
-     li{
-        /* background-color: yellow; */
-        margin: 0 200px;
-     }
-     .Homepage{
-        /* background-color: purple; */
-        width: 250vw;
-     }
-     .image{
-        margin:0 15%;
-     }
-     .content{
-        margin: 0 15%;
-     }
-     #aboutus{
-        /* background-color: orange; */
-        width: 250vw;
-        align-items: center;
-
-     }
-     .About{
-      /* background-color: indigo; */
-      /* border:5px black solid; */
-      width: 200vw;
-     }
-     #emoji{
-      margin-left: 20%;
-     }
-     .humour{
-      letter-spacing: 2px;
-      margin: 2% 1%;
-      padding: 5% 4%;
-     }
-     .click{
-        /* background-color: #628395; */
-        width: 200vw;  
-     }
-     #viewjokes{
-        margin: 5% 45%;
-     }
-     #in{
-        margin:0% 38%;
-     }
-     #rj{
-        
-        width: 250vw;
-        font-size: 2rem;
-     }
-     .Random{
-        /* background-color: aqua; */
-        /* border: 1px black solid; */
-        width: 250vw;
-     }
-     .container1{
-        margin: 5%;
-        /* border: 1px black solid; */
-     }
-     .container{
-        /* background-color: rgb(51, 255, 0); */
-        /* border: 1px black solid; */
-        width: 250vw;
-        
-        
-     }
-     .btn{
-        /* background-color: yellow; */
-    width: 100vw;
-     }
-     .explorebtn{
-        font-size: 2rem;
-     }
-     .reviews{
-        /* background-color: #f37070; */
-        width: 250vw;
-        align-items: center;
-       
-     }
-     #feedback{
-        /* background-color: yellow; */
-        width: 250vw;
-        font-size: 3rem;
-        word-spacing: 1px;
-      
-        }
-        .reviewMain{
-            /* background-color: #9770f3; */
-            width: 150vw;
-            margin:2% 20%;
-            
-        }
-     
-     
+@media screen and (max-width:1400px){
+    /* *{background-color: mediumorchid;} */
+    nav{
+      /* background-color: greenyellow; */
+      width: 100%;
     }
-
-   
-
-
-   /* MEDIA QUERY MAX-WIDTH 1024PX */
-   @media screen and (max-width:1024px){
-    /* *{
-            background-color: #ed5625; 
-    } */
-    nav{
-        /* background-color: black;   */
-        width: 300vw;
-        height:10vh;
-     }
-     li{
-         /* background-color: yellow; */
-        margin: 0 200px;
-     }
-     .Homepage{
-         /* background-color: purple;  */
-        width: 300vw;
-     }
-     .image{
-        margin:0 15%;
-     }
-     .content{
-        margin: 0 15%;
-     }
-     #aboutus{
-        /* background-color: blue; */
-        width: 300vw;
-        align-items: center;
-
-     }
-     .About{
-       /* background-color: indigo;  */
-      /* border:5px black solid; */
-      width: 250vw;
-     }
-     #emoji{
-      margin-left: 20%;
-     }
-     .humour{
-      letter-spacing: 2px;
-      margin: 2% 1%;
-      padding: 5% 4%;
-     }
-     .click{
-         /* background-color: #628395;  */
-        width: 200vw;  
-     }
-     #viewjokes{
-        margin: 5% 45%;
-     }
-     #in{
-        margin:0% 38%;
-     }
-     #rj{
-        
-        width: 250vw;
-        font-size: 2rem;
-     }
-     .Random{
-        /* background-color: aqua;  */
-         /* border: 1px black solid;  */
-        width: 250vw;
-     }
-     .container1{
-        margin: 5%;
-        /* border: 1px black solid;  */
-     }
-     .container{
-         /* background-color: rgb(51, 255, 0);  */
-        /* border: 1px black solid;  */
-        width: 300vw;
-        
-        
-     }
-     .btn{
-     /* background-color: yellow;  */
-    width: 100vw;
-     }
-     .explorebtn{
-        font-size: 2rem;
-     }
-     .reviews{
-         /* background-color: #f37070;  */
-        width: 300vw;
-        align-items: center;
-       
-     }
-     #feedback{
-         /* background-color: yellow; */
-        width: 300vw;
-        font-size: 3rem;
-        word-spacing: 1px;
+   .Homepage {
+     /* background-color: blue; */
+     width: 100%;
+  
+    }
+    .About{
+      /* background-color: green; */
+      /* border: 2px black solid; */
+      margin-right:150px ;
+      margin-bottom: 20px;
+    }
+    .Random{
+      /* background-color: yellow; */
+      padding-top: 50px;
+      width: 100%;
+      align-items: center;
+    }
+    .container{
+      /* background-color:blue; */
+      display:grid;
+      display: grid;
+      column-gap: 50px;
       
-        }
-        .reviewMain{
-             /* background-color: #9770f3; */
-            width: 200vw;
-            margin:2% 20%;
-            
-        }
-
-        footer{
-            /* background-color: indigo; */
-            width: 300vw;
-            
-
-        }
-       
-        .left{
-            /* background-color: #9770f3; */
-               margin-bottom: 0.8%;       
-        }
-        .footer>ul{
-        margin-bottom: 4%;
-          
-        }
-        
-        .socials{
-             
-             margin-bottom: 4%;
-        }
-        
-       
-        #enjoy{
-        
-            margin: 0.5%;
-        }
-        
-        #thank{
-            margin: 0.5%;
-        }
-}
-
-
-   /* MEDIA QUERY MAX-WIDTH 650 */
-   @media screen and (max-width:650px){
-    /* *{
-        background-color:yellow;    
-    } */
-    nav{
-        /* background-color: black;    */
-        width: 450vw;
-        height:10vh;
-     }
-     
-     .Homepage{
-          /* background-color: purple;   */
-        width: 450vw;
-     }
-     
-     #aboutus{
-         /* background-color: blue;  */
-        width: 450vw;
-        align-items: center;
-
-     }
-     .About{
-       /* background-color: indigo;  */
-      /* border:5px black solid; */
-      width: 350vw;
-     }
-    
-     .click{
-         /* background-color: #628395;  */
-        width: 350vw;  
-     }
-     #viewjokes{
-        margin: 5% 45%;
-     }
-     #in{
-        margin:0% 38%;
-     }
-     #rj{
-        
-        width: 400vw;
-        font-size: 2rem;
-     }
-     .Random{
-         /* background-color: aqua;  */
-         /* border: 1px black solid;   */
-        width: 450vw;
-     }
-     
-     .container{
-         /* background-color: rgb(51, 255, 0);   */
-        /* border: 1px black solid;  */
-        width: 450vw;  
-     }
-     
-     .reviews{
-          /* background-color: #f37070;  */
-        width: 450vw;
-        align-items: center;
-       
-     }
-     #feedback{
-          /* background-color: rgb(235, 50, 26);  */
-        width: 450vw;
-        font-size: 3rem;
-        word-spacing: 1px;
       
-        }
-        .reviewMain{
-             /* background-color: #9770f3;   */
-            width: 300vw;
-            margin:2% 20%;
-            
-        }
-
-        footer{
-            /* background-color: indigo; */
-            width: 450vw;
-            
-        }
-        
+    }
+    footer{
+      /* background-color: green; */
+      width:80% px;
+    }
+    .explorebtn{
+      /* background-color: black; */
+      width: 120px;
+    }
+  }
+  
+  @media screen and (max-width:1024px){
+    .About{
+      /* background-color: green; */
+      /* border: 2px black solid; */
+      width: 80%;  
+    }
+   .container{
+    display: column-gap;
    }
-
-
-
-   /* MEDIA QUERY MAX-WIDTH 480 */
-
-   @media screen and (max-width:480px){
-    /* *{
-        background-color:green;
-    } */
-    nav{
-        /* background-color: black;    */
-        width: 600vw;
-        height:10vh;
-     }
-     
-     .Homepage{
-          /* background-color: purple;   */
-        width: 600vw;
-     }
-     
-     #aboutus{
-         /* background-color: blue;  */
-        width: 600vw;
-        align-items: center;
-
-     }
-     .About{
-       /* background-color: indigo;  */
-      /* border:5px black solid; */
-      width: 500vw;
-     }
-    
-     .click{
-         /* background-color: #628395;  */
-        width: 500vw;  
-     }
-     #viewjokes{
-        margin: 0% 45%;
-     }
-     
-     #rj{
-        
-        width: 580vw;
-        font-size: 1.5rem;
-     }
-     .Random{
-         /* background-color: aqua;  */
-         /* border: 1px black solid;   */
-        width: 600vw;
-     }
-     
-     .container{
-         /* background-color: rgb(51, 255, 0);   */
-        /* border: 1px black solid;  */
-        width: 600vw;  
-     }
-     
-     .reviews{
-          /* background-color: #f37070;  */
-        width: 600vw;
-       
-       
-     }
-     #feedback{
-          /* background-color: rgb(235, 50, 26);  */
-        width: 600vw;
-       
       
-        }
-        .reviewMain{
-             /* background-color: #9770f3;   */
-            width: 350vw;
-            margin:2% 20%;
-            
-        }
-
-        footer{
-             /* background-color: indigo;  */
-            width: 600vw;
-            
-        }
-   }
+  
+    .humour{
+      margin-left: 10%;
+    }
+    #emoji{
+      margin-left:2% ;
+    }
+    footer{
+      /* background-color: orange; */
+      height: 100vh;
+    }
+  
+  }
+  
